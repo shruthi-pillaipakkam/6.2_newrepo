@@ -9,7 +9,7 @@ steps:
         truncateBefore: true
       database: ""
       deployEnabled: true
-      description: ""
+      description: test
       isMultisource: false
       locationName: STG
       materializationType: table
