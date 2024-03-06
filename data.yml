@@ -1,6 +1,13 @@
 defaultStorageMapping: STG
 installedPackages: {}
-jobs: {}
+jobs:
+  Job-1:
+    excludeSelector: ""
+    id: 1
+    includeSelector: "{ location: STG name: STG_NATION } OR { location: STG name: STG_ORDERS } OR { location: SRC name: NATION } OR { location: SRC name: ORDERS }"
+    name: New Job
+    steps: []
+    subgraphs: []
 locations:
   SRC:
     mappingDefinitions:
@@ -1970,5 +1977,12 @@ stepTypes:
             {% endif %}
     name: Persistent Stage
     version: 1
-subgraphs: {}
+subgraphs:
+  Subgraph-1:
+    id: "1"
+    name: New Subgraph
+    steps:
+      - 948e917a-7385-4a25-9d34-5238a279da8a
+      - 997c9e00-3e89-4f04-ad21-d9d79d37ccc3
+      - b121e796-60ac-474e-a49e-ec6047af8aad
 version: 2
