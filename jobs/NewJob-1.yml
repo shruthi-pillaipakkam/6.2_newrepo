@@ -2,5 +2,4 @@ excludeSelector: ""
 fileVersion: 1
 id: "1"
 includeSelector: "{ location: STG name: STG_NATION } OR { location: STG name: STG_ORDERS } OR { location: SRC name: NATION } OR { location: SRC name: ORDERS }"
-name: New Job
 type: Job
