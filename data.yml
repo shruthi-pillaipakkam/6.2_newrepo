@@ -1,9 +1,9 @@
 defaultStorageMapping: WORK
 installedPackages: {}
 jobs:
-  Job-1:
+  Job-2:
     excludeSelector: ""
-    id: 1
+    id: 2
     includeSelector: ""
     name: New Job
     steps: []
