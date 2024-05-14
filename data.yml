@@ -5,7 +5,6 @@ jobs:
     excludeSelector: ""
     id: 2
     includeSelector: ""
-    name: New Job
     steps: []
     subgraphs: []
 locations: {}
