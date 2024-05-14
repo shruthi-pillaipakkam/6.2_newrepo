@@ -142,7 +142,7 @@ steps:
             defaultValue: ""
             description: ""
             hashDetails:
-              hashAlgorithm: SHA256
+              hashAlgorithm: SHA1
             hashedColumns:
               - columnCounter: 3f7308e0-f7c6-4439-a58b-cd63ebe4294b
                 stepCounter: a2387cf9-7b6d-490a-b7e4-73bd3d9b5c8d
