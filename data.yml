@@ -8,17 +8,7 @@ jobs:
     name: New Job
     steps: []
     subgraphs: []
-locations:
-  SRC:
-    mappingDefinitions:
-      "2":
-        database: COALESCE_SAMPLE_DATABASE
-        schema: TPCH_SF001
-  STG:
-    mappingDefinitions:
-      "2":
-        database: SHRUTHI_DB
-        schema: PUBLIC
+locations: {}
 macros: {}
 packages: {}
 projects: {}
@@ -1246,11 +1236,11 @@ stepTypes:
             isRequired: true
 
           - type: multisourceToggle
-            enableIf: "{% if node.materializationType == 'table' %} true {% else %} false {% endif %}" 
+            enableIf: "{% if node.materializationType == 'table' %} true {% else %} false {% endif %}"
 
           - type: overrideSQLToggle
             enableIf: "{% if node.materializationType == 'view' %} true {% else %} false {% endif %}"
-            
+
           - displayName: Multi Source Strategy
             attributeName: insertStrategy
             type: dropdownSelector
@@ -1271,7 +1261,7 @@ stepTypes:
             attributeName: testsEnabled
             type: toggleButton
             default: true
-            
+
           - displayName: Pre-SQL
             attributeName: preSQL
             type: textBox
