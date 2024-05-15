@@ -1,12 +1,11 @@
 steps:
-  DAILY_14_TOTAL_SHORT-8a7f6701-2b0d-4d84-8f98-b26ad5323b94:
+  DAILY_14_TOTAL_SHORT-3a59614e-550a-460d-97b7-5ae8b66165df:
     operation:
       database: ""
       dataset: ""
       deployEnabled: true
       description: ""
-      locationID: ""
-      locationName: SRC
+      locationName: SAMPLE
       metadata:
         columns:
           - acceptedValues:
@@ -14,8 +13,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 28ae6780-e701-44b9-a4fa-fed5ff455e29
-              stepCounter: 8a7f6701-2b0d-4d84-8f98-b26ad5323b94
+              columnCounter: 158eda62-e3fc-433e-8d7b-292739dc3d77
+              stepCounter: 3a59614e-550a-460d-97b7-5ae8b66165df
             config: {}
             dataType: VARIANT
             defaultValue: ""
@@ -23,14 +22,18 @@ steps:
             name: V
             nullable: true
             primaryKey: false
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: ""
+            transform: ""
             uniqueKey: false
           - acceptedValues:
               strictMatch: true
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: a2e57be8-df45-41e1-9fac-17ac02a16b30
-              stepCounter: 8a7f6701-2b0d-4d84-8f98-b26ad5323b94
+              columnCounter: 98cdbc26-9e62-4b85-a26c-a9b1d360fa14
+              stepCounter: 3a59614e-550a-460d-97b7-5ae8b66165df
             config: {}
             dataType: TIMESTAMP_NTZ(9)
             defaultValue: ""
@@ -38,12 +41,16 @@ steps:
             name: T
             nullable: true
             primaryKey: false
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: ""
+            transform: ""
             uniqueKey: false
         join:
-          joinCondition: FROM {{ ref('SRC', 'DAILY_14_TOTAL_SHORT') }}
+          joinCondition: FROM {{ ref('SAMPLE', 'DAILY_14_TOTAL_SHORT') }}
       name: DAILY_14_TOTAL_SHORT
       schema: ""
       sqlType: Source
       table: DAILY_14_TOTAL_SHORT
       type: sourceInput
-    stepCounter: 8a7f6701-2b0d-4d84-8f98-b26ad5323b94
+    stepCounter: 3a59614e-550a-460d-97b7-5ae8b66165df

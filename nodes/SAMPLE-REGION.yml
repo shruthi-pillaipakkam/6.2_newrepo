@@ -1,12 +1,11 @@
 steps:
-  REGION-b121e796-60ac-474e-a49e-ec6047af8aad:
+  REGION-201c98fe-fa66-4ee6-9fa6-1952a1868c94:
     operation:
       database: ""
       dataset: ""
       deployEnabled: true
       description: ""
-      locationID: ""
-      locationName: SRC
+      locationName: SAMPLE
       metadata:
         columns:
           - acceptedValues:
@@ -14,8 +13,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 5731be98-183d-40a5-84d5-282ecf864073
-              stepCounter: b121e796-60ac-474e-a49e-ec6047af8aad
+              columnCounter: f91b22dc-9921-4691-b5d7-35d411a72427
+              stepCounter: 201c98fe-fa66-4ee6-9fa6-1952a1868c94
             config: {}
             dataType: NUMBER(38,0)
             defaultValue: ""
@@ -23,14 +22,18 @@ steps:
             name: R_REGIONKEY
             nullable: false
             primaryKey: false
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: ""
+            transform: ""
             uniqueKey: false
           - acceptedValues:
               strictMatch: true
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 0eef2ed2-0fc0-4042-8387-572b4a679b08
-              stepCounter: b121e796-60ac-474e-a49e-ec6047af8aad
+              columnCounter: 0ff4ef8e-2275-426b-b900-0d4a7a3edd1e
+              stepCounter: 201c98fe-fa66-4ee6-9fa6-1952a1868c94
             config: {}
             dataType: VARCHAR(25)
             defaultValue: ""
@@ -38,14 +41,18 @@ steps:
             name: R_NAME
             nullable: false
             primaryKey: false
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: ""
+            transform: ""
             uniqueKey: false
           - acceptedValues:
               strictMatch: true
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 708f1939-5d17-44dd-996d-2d9bfa70d79c
-              stepCounter: b121e796-60ac-474e-a49e-ec6047af8aad
+              columnCounter: b4ad6794-8f1f-4fb9-b7a4-9d045c17fe59
+              stepCounter: 201c98fe-fa66-4ee6-9fa6-1952a1868c94
             config: {}
             dataType: VARCHAR(152)
             defaultValue: ""
@@ -53,12 +60,16 @@ steps:
             name: R_COMMENT
             nullable: true
             primaryKey: false
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: ""
+            transform: ""
             uniqueKey: false
         join:
-          joinCondition: FROM {{ ref('SRC', 'REGION') }}
+          joinCondition: FROM {{ ref('SAMPLE', 'REGION') }}
       name: REGION
       schema: ""
       sqlType: Source
       table: REGION
       type: sourceInput
-    stepCounter: b121e796-60ac-474e-a49e-ec6047af8aad
+    stepCounter: 201c98fe-fa66-4ee6-9fa6-1952a1868c94
