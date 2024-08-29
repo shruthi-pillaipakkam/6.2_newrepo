@@ -1,6 +1,6 @@
 fileVersion: 1
-id: b7d907fa-4090-4ab1-86e5-2efa6a463494
-name: STG_PARTSUPP
+id: cb3ebc93-56cc-4b34-baa0-c3a572cc2d51
+name: STG_PARTSUPP38
 operation:
   config:
     insertStrategy: INSERT
@@ -19,8 +19,8 @@ operation:
     columns:
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: f05eae5f-dce2-48ae-ac91-213c236e056d
-          stepCounter: b7d907fa-4090-4ab1-86e5-2efa6a463494
+          columnCounter: 9da5e410-5c99-4bdf-8211-f94ecfc29ba9
+          stepCounter: cb3ebc93-56cc-4b34-baa0-c3a572cc2d51
         config: {}
         dataType: NUMBER(38,0)
         description: Foreign Key to P_PARTKEY
@@ -33,8 +33,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 2ba0cd4f-f8bd-4a56-b406-15ceb146ff29
-          stepCounter: b7d907fa-4090-4ab1-86e5-2efa6a463494
+          columnCounter: a413ccae-6b21-4869-9e81-7783658d66fe
+          stepCounter: cb3ebc93-56cc-4b34-baa0-c3a572cc2d51
         config: {}
         dataType: NUMBER(38,0)
         description: Foreign Key to S_SUPPKEY
@@ -47,8 +47,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 27e997ca-1dc9-4e63-a480-938c50a36061
-          stepCounter: b7d907fa-4090-4ab1-86e5-2efa6a463494
+          columnCounter: c6571458-bfa3-4552-ab1f-c60f0b957a15
+          stepCounter: cb3ebc93-56cc-4b34-baa0-c3a572cc2d51
         config: {}
         dataType: NUMBER(38,0)
         description: ""
@@ -61,8 +61,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: ddee0db9-aff5-439e-bff4-8fb6266001e6
-          stepCounter: b7d907fa-4090-4ab1-86e5-2efa6a463494
+          columnCounter: 3e7d5e6b-9d0c-40d3-a0aa-ce832726182c
+          stepCounter: cb3ebc93-56cc-4b34-baa0-c3a572cc2d51
         config: {}
         dataType: NUMBER(12,2)
         description: ""
@@ -75,8 +75,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 993668b5-bdb4-49e0-a1ff-b67bc670920d
-          stepCounter: b7d907fa-4090-4ab1-86e5-2efa6a463494
+          columnCounter: cc49d3ce-8431-4201-b5eb-135597ab0776
+          stepCounter: cb3ebc93-56cc-4b34-baa0-c3a572cc2d51
         config: {}
         dataType: VARCHAR(199)
         description: ""
@@ -98,9 +98,9 @@ operation:
             nodeName: PARTSUPP
         join:
           joinCondition: FROM {{ ref('SAMPLE', 'PARTSUPP') }} "PARTSUPP"
-        name: STG_PARTSUPP
+        name: STG_PARTSUPP1
         noLinkRefs: []
-  name: STG_PARTSUPP
+  name: STG_PARTSUPP38
   overrideSQL: false
   schema: ""
   sqlType: Stage
