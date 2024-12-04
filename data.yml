@@ -1,1 +1,3 @@
-fileVersion: 4
+defaultStorageMapping: WORK
+fileVersion: 3
+platformKind: snowflake
