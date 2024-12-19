@@ -58,7 +58,7 @@ operation:
           - columnReferences:
               - columnCounter: 89427f5f-d477-4281-bfa4-02cc12d0b18a
                 stepCounter: 1dd2623c-077d-4d8c-ab6c-8b5b2eacd12a
-            transform: "1"
+            transform: "\"PS_AVAILQTY\""
       - appliedColumnTests: {}
         columnReference:
           columnCounter: 12219b2b-acca-4b36-8aee-829ccd9aa0fe
