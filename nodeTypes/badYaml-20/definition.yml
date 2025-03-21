@@ -13,7 +13,7 @@ metadata:
     config:
     - groupName: Options
       items:
-                - type: materializationSelector
+      - type: materializationSelector
         default: table
         options:
         - table

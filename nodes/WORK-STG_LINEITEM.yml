@@ -93,7 +93,7 @@ operation:
           - columnReferences:
               - columnCounter: 9559f5f7-a660-4e3f-9e88-9e0e51912232
                 stepCounter: a0ea5c17-98b8-4d30-a71c-9111241b3422
-            transform: ""
+            transform: "\"L_QUANTITY\""
       - appliedColumnTests: {}
         columnReference:
           columnCounter: a2250d71-70d6-49de-a94d-0a64c5ca2bc7
