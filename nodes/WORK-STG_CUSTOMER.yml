@@ -63,7 +63,7 @@ operation:
           - columnReferences:
               - columnCounter: 076d8cd3-cc84-4102-a8d9-2b23a0b15f98
                 stepCounter: a45524be-76b1-4ec5-9bcf-4cb705034f72
-            transform: ""
+            transform: invalid
       - appliedColumnTests: {}
         columnReference:
           columnCounter: db6b6937-48b2-47ac-93f0-982495bc0025
