@@ -9,13 +9,18 @@ operation:
     testsEnabled: true
     truncateBefore: true
   database: ""
-  deployEnabled: false
+  deployEnabled: true
   description: ""
   isMultisource: false
   locationName: WORK
   materializationType: table
   metadata:
-    appliedNodeTests: []
+    appliedNodeTests:
+      - continueOnFailure: true
+        description: ""
+        name: Test
+        runOrder: After
+        templateString: SELECT * FROM {{ ref_no_link('WORK','STG_CUSTOMER') }} WHERE C_NATIONKEY > 0
     columns:
       - appliedColumnTests: {}
         columnReference:
