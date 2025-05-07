@@ -58,5 +58,5 @@ metadata:
         type: textBox
         syntax: sql
         isRequired: false
-name: badYaml
+name: test
 type: NodeType

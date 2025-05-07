@@ -1,5 +1,5 @@
 fileVersion: 1
-id: "2"
+id: "22"
 isDisabled: false
 metadata:
   defaultStorageLocation: null
@@ -19,12 +19,6 @@ metadata:
         - table
         - view
         isRequired: true
-        
-      - displayName: Warehouse
-        attributeName: warehouse
-        type: textBox
-        syntax: sql
-        isRequired: false
 
       - type: multisourceToggle
         enableIf: "{% if node.materializationType == 'table' %} true {% else %} false {% endif %}" 
@@ -61,6 +55,12 @@ metadata:
 
       - displayName: Post-SQL
         attributeName: postSQL
+        type: textBox
+        syntax: sql
+        isRequired: false
+
+      - displayName: Warehouse
+        attributeName: warehouse
         type: textBox
         syntax: sql
         isRequired: false

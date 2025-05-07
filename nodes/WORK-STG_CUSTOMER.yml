@@ -19,7 +19,7 @@ operation:
       - continueOnFailure: true
         description: ""
         name: Test
-        runOrder: Before
+        runOrder: After
         templateString: SELECT * FROM {{ ref_no_link('WORK','STG_CUSTOMER') }} WHERE C_NATIONKEY > 0
     columns:
       - appliedColumnTests: {}
