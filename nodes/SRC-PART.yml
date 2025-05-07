@@ -3,7 +3,6 @@ id: edaeb504-a9b4-43d1-98bd-27735e4e5012
 name: PART
 operation:
   database: ""
-  dataset: ""
   deployEnabled: true
   description: ""
   locationName: SRC
@@ -144,11 +143,9 @@ operation:
         nullable: true
         primaryKey: false
         uniqueKey: false
-    join:
-      joinCondition: FROM {{ ref('SRC', 'PART') }}
   name: PART
   schema: ""
   sqlType: Source
-  table: PART
   type: sourceInput
+  version: 1
 type: Node
