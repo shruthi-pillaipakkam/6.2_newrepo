@@ -1,5 +1,11 @@
 fileVersion: 1
 id: "634"
-mappingDefinitions: {}
+mappingDefinitions:
+  SRC:
+    database: COALESCE_SAMPLE_DATABASE
+    schema: TPCH_SF001
+  STG:
+    database: QA_DB
+    schema: QA_DB_SCHEMA
 name: "7242"
 type: Environment
