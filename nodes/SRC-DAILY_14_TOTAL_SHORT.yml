@@ -3,7 +3,6 @@ id: 8a7f6701-2b0d-4d84-8f98-b26ad5323b94
 name: DAILY_14_TOTAL_SHORT
 operation:
   database: ""
-  dataset: ""
   deployEnabled: true
   description: ""
   locationName: SRC
@@ -39,11 +38,9 @@ operation:
         nullable: true
         primaryKey: false
         uniqueKey: false
-    join:
-      joinCondition: FROM {{ ref('SRC', 'DAILY_14_TOTAL_SHORT') }}
   name: DAILY_14_TOTAL_SHORT
   schema: ""
   sqlType: Source
-  table: DAILY_14_TOTAL_SHORT
   type: sourceInput
+  version: 1
 type: Node
