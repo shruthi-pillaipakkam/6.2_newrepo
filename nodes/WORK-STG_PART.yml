@@ -135,7 +135,7 @@ operation:
           stepCounter: d227cc94-2da4-43f3-8acd-0289e40dc281
         config: {}
         dataType: VARCHAR(23)
-        description: ""
+        description: "{{parameters.foo}}"
         name: P_COMMENT
         nullable: true
         sourceColumnReferences:
@@ -146,7 +146,8 @@ operation:
     cteString: ""
     enabledColumnTestIDs: []
     sourceMapping:
-      - aliases: {}
+      - aliases:
+          PART: c15608c5-16e3-4c9c-b0a4-68c532530c53
         customSQL:
           customSQL: ""
         dependencies:

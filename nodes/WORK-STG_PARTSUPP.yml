@@ -90,14 +90,17 @@ operation:
     cteString: ""
     enabledColumnTestIDs: []
     sourceMapping:
-      - aliases: {}
+      - aliases:
+          PARTSUPP: 1dd2623c-077d-4d8c-ab6c-8b5b2eacd12a
         customSQL:
           customSQL: ""
         dependencies:
           - locationName: SAMPLE
             nodeName: PARTSUPP
         join:
-          joinCondition: FROM {{ ref('SAMPLE', 'PARTSUPP') }} "PARTSUPP"
+          joinCondition: |-
+            FROM {{ ref('SAMPLE', 'PARTSUPP') }} "PARTSUPP"
+            WHERE "PS_SUPPLYCOST" < '{{parameters.myWallet}}'
         name: STG_PARTSUPP
         noLinkRefs: []
   name: STG_PARTSUPP
