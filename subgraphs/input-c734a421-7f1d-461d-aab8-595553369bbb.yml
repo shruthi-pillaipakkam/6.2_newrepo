@@ -1,10 +1,8 @@
 fileVersion: 1
-id: "1"
-name: Subgraph
+id: c734a421-7f1d-461d-aab8-595553369bbb
+name: input
 steps:
-  - 1dd2623c-077d-4d8c-ab6c-8b5b2eacd12a
   - 201c98fe-fa66-4ee6-9fa6-1952a1868c94
-  - 3a59614e-550a-460d-97b7-5ae8b66165df
   - a0ea5c17-98b8-4d30-a71c-9111241b3422
   - a1fdb0f0-48af-4686-9b20-c2dcb3159619
   - a45524be-76b1-4ec5-9bcf-4cb705034f72

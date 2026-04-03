@@ -21,12 +21,10 @@ operation:
         description: ""
         name: V
         nullable: true
-        primaryKey: false
         sourceColumnReferences:
           - columnReferences: []
             transform: ""
         transform: ""
-        uniqueKey: false
       - acceptedValues:
           strictMatch: true
           values: []
@@ -40,12 +38,10 @@ operation:
         description: ""
         name: T
         nullable: true
-        primaryKey: false
         sourceColumnReferences:
           - columnReferences: []
             transform: ""
         transform: ""
-        uniqueKey: false
   name: DAILY_14_TOTAL_SHORT
   schema: ""
   sqlType: Source

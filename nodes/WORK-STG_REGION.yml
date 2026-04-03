@@ -1,5 +1,5 @@
 fileVersion: 1
-id: d42a665b-c85b-450f-926e-5f6782af0510
+id: bd493089-fd25-4440-98d5-210213725590
 name: STG_REGION
 operation:
   config:
@@ -19,8 +19,8 @@ operation:
     columns:
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: d31ee72c-70e8-4181-b76e-1465b6275f52
-          stepCounter: d42a665b-c85b-450f-926e-5f6782af0510
+          columnCounter: 9f5f7161-b3aa-42ca-a5dd-fa558bbb61c3
+          stepCounter: bd493089-fd25-4440-98d5-210213725590
         config: {}
         dataType: NUMBER(38,0)
         description: ""
@@ -33,8 +33,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 2789a18c-44aa-4e22-a11c-559074d2839d
-          stepCounter: d42a665b-c85b-450f-926e-5f6782af0510
+          columnCounter: b27e036f-0280-4199-a267-f7072adf4bf7
+          stepCounter: bd493089-fd25-4440-98d5-210213725590
         config: {}
         dataType: VARCHAR(25)
         description: ""
@@ -47,8 +47,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 8dcfb6b3-f281-47db-b6c5-f1ca53d62160
-          stepCounter: d42a665b-c85b-450f-926e-5f6782af0510
+          columnCounter: 2d8cbdfc-339b-40c6-b193-0f32776b83b9
+          stepCounter: bd493089-fd25-4440-98d5-210213725590
         config: {}
         dataType: VARCHAR(152)
         description: ""
@@ -62,9 +62,8 @@ operation:
     cteString: ""
     enabledColumnTestIDs: []
     sourceMapping:
-      - aliases: {}
-        customSQL:
-          customSQL: ""
+      - aliases:
+          REGION: 201c98fe-fa66-4ee6-9fa6-1952a1868c94
         dependencies:
           - locationName: SAMPLE
             nodeName: REGION

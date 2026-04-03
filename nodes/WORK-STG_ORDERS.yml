@@ -1,5 +1,5 @@
 fileVersion: 1
-id: 71da4347-1e25-4368-b05e-43daf5395999
+id: 3c17a037-8533-4e79-85e7-02f1c109d610
 name: STG_ORDERS
 operation:
   config:
@@ -8,7 +8,6 @@ operation:
     preSQL: ""
     testsEnabled: true
     truncateBefore: true
-    warehouse: TRANSFORMING_WH
   database: ""
   deployEnabled: true
   description: |-
@@ -23,8 +22,8 @@ operation:
     columns:
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 3520f80f-453f-474d-90cc-030b65267b68
-          stepCounter: 71da4347-1e25-4368-b05e-43daf5395999
+          columnCounter: d374e0af-8914-4240-8686-433146ab1e39
+          stepCounter: 3c17a037-8533-4e79-85e7-02f1c109d610
         config: {}
         dataType: NUMBER(38,0)
         description: SF*1,500,000 are sparsely populated
@@ -37,8 +36,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: a5218fc9-072e-4ee9-a44c-9f99234964f4
-          stepCounter: 71da4347-1e25-4368-b05e-43daf5395999
+          columnCounter: df11fcd9-1017-46a2-9e75-d26edf95f5fb
+          stepCounter: 3c17a037-8533-4e79-85e7-02f1c109d610
         config: {}
         dataType: NUMBER(38,0)
         description: Foreign Key to C_CUSTKEY
@@ -51,8 +50,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: d06f9c10-cf88-487a-97a1-994a0c4fb041
-          stepCounter: 71da4347-1e25-4368-b05e-43daf5395999
+          columnCounter: a8ea87a6-1335-4764-8073-be07391a4f23
+          stepCounter: 3c17a037-8533-4e79-85e7-02f1c109d610
         config: {}
         dataType: VARCHAR(1)
         description: ""
@@ -65,8 +64,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: ff9818f7-6091-4405-9b17-0e9f95c6625f
-          stepCounter: 71da4347-1e25-4368-b05e-43daf5395999
+          columnCounter: 172a2316-5a7a-4a9c-bd6b-69b29ab26a52
+          stepCounter: 3c17a037-8533-4e79-85e7-02f1c109d610
         config: {}
         dataType: NUMBER(12,2)
         description: ""
@@ -79,8 +78,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: c7d7d677-3623-42ba-a4c1-f1f48b86e59e
-          stepCounter: 71da4347-1e25-4368-b05e-43daf5395999
+          columnCounter: cfe04cda-c58f-4213-a74a-fa011400c066
+          stepCounter: 3c17a037-8533-4e79-85e7-02f1c109d610
         config: {}
         dataType: DATE
         description: ""
@@ -93,8 +92,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 6672326c-fdc4-4b60-b497-02722fd53e2d
-          stepCounter: 71da4347-1e25-4368-b05e-43daf5395999
+          columnCounter: fc408a84-d1a6-42c5-bcb5-4fc6d48d1abd
+          stepCounter: 3c17a037-8533-4e79-85e7-02f1c109d610
         config: {}
         dataType: VARCHAR(15)
         description: ""
@@ -107,8 +106,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 0b7b5a4e-00c9-4b6b-b320-e57e9d41928d
-          stepCounter: 71da4347-1e25-4368-b05e-43daf5395999
+          columnCounter: 729c1f46-fe14-4926-8aee-0b2ef6f78acc
+          stepCounter: 3c17a037-8533-4e79-85e7-02f1c109d610
         config: {}
         dataType: VARCHAR(15)
         description: ""
@@ -121,8 +120,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 1e2f2413-f686-42ba-ae81-c90243cf59b2
-          stepCounter: 71da4347-1e25-4368-b05e-43daf5395999
+          columnCounter: c5fe737c-3da7-47dd-b6b9-2d38773a5246
+          stepCounter: 3c17a037-8533-4e79-85e7-02f1c109d610
         config: {}
         dataType: NUMBER(38,0)
         description: ""
@@ -135,8 +134,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 3d613d4a-89a9-4195-ae4e-f0471089a14f
-          stepCounter: 71da4347-1e25-4368-b05e-43daf5395999
+          columnCounter: 9aa0671a-2189-4eb7-a7f2-93829a10f4a6
+          stepCounter: 3c17a037-8533-4e79-85e7-02f1c109d610
         config: {}
         dataType: VARCHAR(79)
         description: ""
@@ -150,9 +149,8 @@ operation:
     cteString: ""
     enabledColumnTestIDs: []
     sourceMapping:
-      - aliases: {}
-        customSQL:
-          customSQL: ""
+      - aliases:
+          ORDERS: a1fdb0f0-48af-4686-9b20-c2dcb3159619
         dependencies:
           - locationName: SAMPLE
             nodeName: ORDERS
@@ -163,7 +161,7 @@ operation:
   name: STG_ORDERS
   overrideSQL: false
   schema: ""
-  sqlType: "2"
+  sqlType: Stage
   type: sql
   version: 1
 type: Node
