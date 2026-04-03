@@ -1,6 +1,6 @@
 excludeSelector: ""
 fileVersion: 1
 id: "2"
-includeSelector: "{ location: WORK name: STG_DAILY_14_TOTAL_SHORT } OR { location: WORK name: STG_NATION } OR { location: \"SAMPLE\" name: \"CUSTOMER\" } OR { location: \"SPL\" name: \"CUST/OMER\" }"
+includeSelector: "{ location: WORK name: STG_DAILY_14_TOTAL_SHORT } OR { location: WORK name: STG_NATION } OR { location: \"SAMPLE\" name: \"CUSTOMER\" } OR { location: \"SPL\" name: \"CUST/OMER\" } OR { location: \"WORK\" name: \"SSQL_ORDERS\" } OR { location: \"SAMPLE\" name: \"ORDERS\" } OR { location: \"WORK\" name: \"STG_ORDERS\" } OR { location: \"WORK\" name: \"STG_ORDERS1\" }"
 name: New Job
 type: Job
