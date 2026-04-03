@@ -1,6 +1,4 @@
-@id("1308edc5-1bdd-4c1c-a38f-39d46400f901")
-@nodeType("b14186e6-5c99-4612-bbec-5f3478aadfd9")
-@id("1308edc5-1bdd-4c1c-a38f-39d46400f901")
+@id("8f951e52-d0f6-4597-94ef-6a8d67f2b829")
 @nodeType("b14186e6-5c99-4612-bbec-5f3478aadfd9")
 SELECT
      "O_ORDERKEY" AS "O_ORDERKEY",
